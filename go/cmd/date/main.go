@@ -17,5 +17,5 @@ func main() {
 		os.Exit(1)
 	}
 
-	fmt.Println(t)
+	fmt.Println(formatTime(t, flags.format))
 }
